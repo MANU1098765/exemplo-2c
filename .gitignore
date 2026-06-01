@@ -1,18 +1,47 @@
-# This .gitignore is appropriate for repositories deployed to GitHub Pages and using
-# a Gemfile as specified at https://github.com/github/pages-gem#conventional
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfólio</title>
+    </head>
+    <body>
+        <h1>Isso é um título</h1>
+        <p>Isso é um parágrafo</p>
+        <img scr="html.png" alt="Logo do HTML 5">
+    </body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+</html>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+body {
+  background-color: blue;
+  color: green;
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
 
-# Basic Jekyll gitignores (synchronize to Jekyll.gitignore)
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-
-# Additional Ruby/bundler ignore for when you run: bundle install
-/vendor
-
-# Specific ignore for GitHub Pages
-# GitHub Pages will always use its own deployed version of pages-gem
-# This means GitHub Pages will NOT use your Gemfile.lock and therefore it is
-# counterproductive to check this file into the repository.
-# Details at https://github.com/github/pages-gem/issues/768
-Gemfile.lock
+body{
+    background-color: black;
+    color: white;
+}
+<h1>Formação de <span>Front-end</span></h1>
+h1{
+            font-weight: bold;
+}
+ 
+span{
+            color: #22D4FD;
+            border: 1px solid #22D4FD;
+            padding: 10px;
+}
